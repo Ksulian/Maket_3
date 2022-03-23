@@ -16,4 +16,116 @@
 body{
     font-family: SF Pro Display;
     font-weight: 400;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hr{
+    border: 1px solid #161616;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header */
+.header_wrapper{
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.header_section_a{
+    padding-right:21px;
+    color: #161616;
+}
+.header_section_a2{
+    color: #161616;
+}
+.header_section_a:hover{
+    color: #a0a0a0;
+}
+.header_section_a2:hover{
+    color: #a0a0a0;
+}
+.header_section{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+.header_motto{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #161616;
+    text-transform: uppercase;
+}
+.header_lang_unselect{
+    margin-right: 7px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #CACACA;
+}
+.header_lang_unselect:hover{
+    color: #161616;
+}
+.header_lang_select{
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #161616;
+}
+.header_btns{
+    display: flex;
+}
+.header_a{
+    display: flex;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #161616;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.header_a:hover{
+    color: #a0a0a0;
+}
+.header_a2:hover{
+    color: #a0a0a0;
+}
+.header_a2{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #161616;
+    margin-right: 40px;
+}
+.header_icon{
+    margin-right: 10px;
 }
