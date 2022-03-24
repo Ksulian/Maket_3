@@ -251,6 +251,7 @@ a{
     color: #161616;
 }
 .info_coin_btn{
+    cursor: pointer;
     padding: 21px 137px;
     background: none;
     border: 1px solid #161616;
@@ -299,6 +300,7 @@ a{
     margin-bottom: 20px;
 }
 .info_catalog_btn{
+    cursor: pointer;
     margin-top: 30px;
     padding: 21px 137px;
     background: none;
@@ -337,4 +339,51 @@ a{
 }
 .model_mini_photo{
     margin-bottom: 10px;
+}
+/* photos */
+.photos{
+    margin-bottom: 100px;
+}
+.photos_wrapper{
+    margin-bottom: 50px;
+    display: flex;
+}
+.photos_content{
+    margin-right: 200px;
+}
+.photos_text{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #161616;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photos_btn{
+    cursor: pointer;
+    padding: 21px 70px;
+    background: none;
+    border: 1px solid #161616;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #161616;
+}
+.photos_btn:hover{
+    box-shadow: 0 0 3px #161616;  
+}
+.photos_con_text{
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #161616;
+    margin-bottom: 112px;
+}
+.photos_photo{
+    margin-bottom: 30px;
 }
