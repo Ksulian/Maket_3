@@ -21,6 +21,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.mini_hr{
+    width: 998.72px;
+    border: 1px solid #161616; 
+}
 .hr{
     border: 1px solid #161616;
 }
@@ -309,4 +313,28 @@ a{
 }
 .info_catalog_btn:hover{
     box-shadow: 0 0 3px #161616;  
+}
+/* model */
+.model{
+    padding-top: 50px;
+}
+.model_title{
+    margin: 40px 0;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #161616;
+}
+.model_photos{
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-between;
+}
+.model_photo{
+    display: grid;
+}
+.model_mini_photo{
+    margin-bottom: 10px;
 }
