@@ -387,3 +387,12 @@ a{
 .photos_photo{
     margin-bottom: 30px;
 }
+.photos_a{
+    margin-right: 80px;
+}
+.photos_btns{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
